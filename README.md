@@ -23,7 +23,7 @@
   <p align="center">
 The project creates and deploys an ERC721 NFT collection contract, as well as link a front end web app to allow collectors to view NFT colleciton information, view countdown timer to NFT drops, as well as minting NFTs.
     <br />
-    <a href="https://orange-frost-9284.on.fleek.co/">View Demo</a>
+    <a href="https://orange-frost-9284.on.fleek.co/" target="_blank">View Demo</a>
     ·
     <a href="https://github.com/bzpassersby/Pretty-Faces-Paperwhite/issues">Report Bug</a>
     ·
@@ -44,7 +44,6 @@ The project creates and deploys an ERC721 NFT collection contract, as well as li
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#deployment-guide">Deployment</a></li>
       </ul>
@@ -68,8 +67,8 @@ The project creates and deploys an ERC721 NFT collection contract, as well as li
 - Solidity
 - Javascript
 - React Js
-- [Web3](https://web3js.readthedocs.io/en/v1.5.2/) (Blockchain Interaction)
-- [Truffle](https://www.trufflesuite.com/docs/truffle/overview) (Development Framework)
+- [Web3](https://web3js.readthedocs.io/en/v1.5.2/)
+- [Truffle](https://www.trufflesuite.com/docs/truffle/overview)
 - [Ganache](https://www.trufflesuite.com/ganache)
 - [Infura.io](https://infura.io/)
 
@@ -161,7 +160,7 @@ NFT_MINT_DATE="Oct 27, 2021 20:00:00"
 
 To interact with the web app, first connect an ethereum account with metamask wallet.
 
-After initial NFT drop countdown laps (depending on `NFT_MINT_DATE=''` setting in `.env` file), click the `mint` button would directly mint a NFT. And after transaction confirmation, a link would appear that takes user to "Opensea.io" to view minted NFT.
+After initial NFT drop countdown laps (depending on `NFT_MINT_DATE=''` setting in `.env` file), click the `mint` button to mint an NFT token. And after transaction confirmation, a link would appear that takes user to "Opensea.io" to view minted NFT.
 
 <!-- CONTRIBUTING -->
 
